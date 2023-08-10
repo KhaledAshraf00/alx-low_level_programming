@@ -6,9 +6,9 @@
  */
 void *malloc_checked(unsigned int b)
 {
-  int *block;
-  block = malloc(b);
-  if (block ==NULL)
-    exit(98);
-  return (block);
+int *block;
+block = malloc(b);
+if (block ==NULL)
+exit(98);
+return (block);
 }
