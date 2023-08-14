@@ -3,10 +3,7 @@
 /**
  * print_dog - print variable
  * @d: details
- * @name: name of dog
- * @age: age of dog
- * @owner: owner of dog
- * Return: no return 
+ * Return: no return
  */
 void print_dog(struct dog *d)
 {
