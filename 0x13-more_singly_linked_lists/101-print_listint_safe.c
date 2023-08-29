@@ -19,6 +19,7 @@ else
 {
 printf("-> [%p] %d\n", (void *)head->next, head->next->n);
 break;
+return (98);
 }
 }
 return (num);
