@@ -18,7 +18,6 @@ head = head->next;
 else
 {
 printf("-> [%p] %d\n", (void *)head->next, head->next->n);
-return (98);
 break;
 }
 }
